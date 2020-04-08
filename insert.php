@@ -1,4 +1,4 @@
-<?php require("db/db.php");
+<?php require("db.php");
 header('Content-Type: application/json');
 $json = [];
 try
