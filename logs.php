@@ -1,4 +1,4 @@
-<?php require("db/db.php");
+<?php require("db.php");
 $result = mysqli_query($con, "SELECT * FROM comments ORDER BY id ASC");
 while($row = mysqli_fetch_assoc($result)){
 echo "<div class='comments_content'>";
